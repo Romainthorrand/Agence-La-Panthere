@@ -90,10 +90,6 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
 
 .b-parallax {
     background-attachment: fixed;
@@ -284,7 +280,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 50px;
 }
 
 .navbar {
@@ -510,13 +506,29 @@ button {
     box-shadow: none;
 }
 
+.label_contact{
+    font-size: 20px;
+    margin-right: 45px;
+}
+
+.adresse_contact{
+    font-size: 20px;
+    text-align: center;
+}
+
+.adresse_contact_titre{
+    display:inline;
+    text-align: center;
+    font-weight: 700;
+}
+
 .scrollToTop {
     width: 40px;
     height: 40px;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -555,7 +567,7 @@ a[data-lightbox]:hover::before {
 }
 
 a[data-lightbox]:hover img {
-    opacity: 0.6;
+    opacity: 0.8;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
 }
@@ -651,7 +663,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
 
 .container {
@@ -659,7 +671,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 55px;
 }
 
 .hero-bloc-text-sub {
@@ -677,7 +689,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -775,7 +787,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
