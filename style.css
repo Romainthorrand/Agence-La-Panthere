@@ -1,15 +1,10 @@
-#f3976cbody {
+.body {
   margin: 0;
   padding: 0;
   background: #fff;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.btn {
-  background-color: #f3976c;
-  color: black;
 }
 
 a,
@@ -530,13 +525,22 @@ button {
 }
 
 .citation {
+  margin-right:auto;
+  margin-left: auto;
   font-style: italic;
-  font-size: 1.8em;
+  font-size: 1.3em;
+  color: #f3976c !important;
 }
 
 .auteur {
   font-style: italic;
-  font-size: 1.5em;
+  font-size: 1em;
+}
+
+.image_logo{
+  width: 100px;
+  display: flex;
+  margin: auto;
 }
 
 .scrollToTop {
@@ -707,7 +711,7 @@ a {
 }
 
 p {
-  font-size: 18px;
+  font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -721,8 +725,7 @@ p {
 }
 
 .cta-hero {
-  display: inline;
-  width: 25%;
+  margin-top: 22px;
   padding: 12px 28px 12px 28px;
   text-transform: uppercase;
   font-size: 16px;
@@ -768,6 +771,7 @@ h4 {
 
 .white {
   color: #ffffff !important;
+
 }
 
 .portfolio-thumb {
@@ -784,7 +788,7 @@ h4 {
 }
 
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  background-color: rgba(0, 0, 0, 0.7) !important;
   padding: 40px 40px 40px 40px;
 }
 
@@ -806,7 +810,7 @@ h4 {
 }
 
 .tc-white {
-  color: white !important;
+  color: #c27956 !important;
 }
 
 .btn-atomic-tangerine {
