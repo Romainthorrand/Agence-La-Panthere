@@ -532,6 +532,11 @@ button {
   color: #f3976c !important;
 }
 
+.commentaire{
+  color:#c27956;
+  font-style:italic;
+}
+
 .auteur {
   font-style: italic;
   font-size: 1em;
@@ -545,6 +550,12 @@ button {
 
 .img-dimension{
   width: 270px;
+}
+
+.social{
+  max-width:400px;
+  margin:auto;
+  justify-content: center;
 }
 
 .scrollToTop {
@@ -739,7 +750,7 @@ p {
 
 .social {
   max-width: 400px;
-  margin: auto auto auto auto;
+  margin: auto auto auto auto !important;
 }
 
 h2 {
@@ -816,6 +827,12 @@ h4 {
 .tc-white {
   color: #c27956 !important;
 }
+
+.tc-black{
+  color: black !important;
+}
+
+.tc
 
 .btn-atomic-tangerine {
   background: #f3976c;
