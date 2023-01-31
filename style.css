@@ -16,6 +16,7 @@ button {
 a:hover {
   text-decoration: none;
   cursor: pointer;
+  color:#c27956 !important
 }
 
 #page-loading-blocs-notifaction {
@@ -460,7 +461,7 @@ button {
 }
 
 .btn-rd {
-  border-radius: 40px;
+  border-radius: 40px !important;
 }
 
 .btn-clean {
@@ -741,7 +742,7 @@ p {
 
 .cta-hero {
   margin-top: 22px;
-  padding: 12px 28px 12px 28px;
+  padding: 12px 28px 12px 28px !important;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 700;
@@ -832,10 +833,8 @@ h4 {
   color: black !important;
 }
 
-.tc
-
 .btn-atomic-tangerine {
-  background: #f3976c;
+  background-color: #f3976c !important;
   color: #ffffff !important;
 }
 
