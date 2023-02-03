@@ -13,10 +13,20 @@ button {
   outline: none !important;
 }
 
+button:hover{
+  background-color:#c27956 !important;
+  color:black !important;
+}
+
 a:hover {
   text-decoration: none;
   cursor: pointer;
   color:#c27956 !important
+}
+
+.btn-hover:hover{
+  background-color:#c27956 !important;
+  color:black !important;
 }
 
 #page-loading-blocs-notifaction {
@@ -135,7 +145,7 @@ a:hover {
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
-.d-bloc a:hover .icon-sm,
+icon-bar.d-bloc a:hover .icon-sm,
 .d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
@@ -151,6 +161,11 @@ a:hover {
 
 .d-bloc .navbar-toggle .icon-bar {
   background: rgba(255, 255, 255, 1);
+}
+
+.icon-bar {
+  underline:none !important;
+  background-color: transparent;
 }
 
 .d-bloc .btn-wire,
@@ -343,8 +358,7 @@ a:hover {
 }
 
 .navbar-toggle .icon-bar {
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 26px;
+  width: 26px !important;
 }
 
 .nav-invert .navbar .nav {
@@ -443,21 +457,39 @@ nav .caret {
 
 .btn {
   margin: 0 5px 5px 0;
+  cursor: pointer !important;
 }
 
 .btn.pull-right {
   margin: 0 0 5px 5px;
 }
 
-.btn-d,
+
 .btn-d:hover,
 .btn-d:focus {
-  color: #fff;
-  background: rgba(0, 0, 0, 0.3);
+  color: white !important;
+  border: 3px solid #f3976c !important;
+  background-color: rgba(0, 0, 0, 1) !important;
+}
+
+.btn-d {
+  background-color: white !important;
+  border: 3px solid black !important;
+}
+
+.fa-chevron-up{
+  color:#f3976c;
+  
+}
+
+.fa-chevron-up:hover{
+  color:#f3976c;
+  
 }
 
 button {
   outline: none !important;
+  cursor: pointer !important;
 }
 
 .btn-rd {
@@ -467,13 +499,17 @@ button {
 .btn-clean {
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-bottom-color: rgba(0, 0, 0, 0.1);
-  text-shadow: 0 1px 0 rgba(0, 0, 1, 0.1);
-  box-shadow: 0 1px 3px rgba(0, 0, 1, 0.25),
-    inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
+  text-shadow: 0 2px 0 rgba(0, 0, 1, 0.3);
+  box-shadow: 0 3px 3px rgba(0, 0, 1, 0.5);
+  inset: 0 1px 0 0 rgba(255, 255, 255, 0.15);
 }
 
 .icon-md {
   font-size: 30px !important;
+}
+
+.icon-md:hover{
+  color:white !important;
 }
 
 .icon-lg {
@@ -514,7 +550,7 @@ button {
 
 .adresse_contact {
   font-size: 20px;
-  margin-top: 15%;
+  margin-top: 20px;
 }
 
 .adresse_contact_titre {
@@ -544,9 +580,18 @@ button {
 }
 
 .image_logo{
-  width: 100px;
+  width: 150px;
   display: flex;
   margin: auto;
+}
+
+.logo-header{
+  width: 400px;
+  height: 70px;
+}
+
+.tangerine-color{
+  color:#f3976c !important;
 }
 
 .img-dimension{
@@ -571,7 +616,7 @@ button {
 }
 
 .scrollToTop span {
-  margin-top: 6px;
+  margin-top: 1px;
 }
 
 .showScrollTop {
@@ -700,7 +745,6 @@ label,
 .btn,
 a {
   font-family: "helvetica";
-  
   color: black;
 }
 
@@ -735,9 +779,9 @@ p {
   margin: auto auto auto auto !important;
 }
 
-.h1 {
+h1 {
   font-size: 20px;
-  font-family: "Open Sans";
+  text-shadow:2px 3px 1px rgba(0, 0, 1, 0.8);
 }
 
 .cta-hero {
@@ -746,7 +790,6 @@ p {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 700;
-  
 }
 
 .social {
@@ -825,8 +868,18 @@ h4 {
   background-color: #f3976c;
 }
 
+.tc-tangerine{
+  color:#f3976c !important;
+}
+
 .tc-white {
   color: #c27956 !important;
+}
+
+
+
+.ts-black{
+  text-shadow:1px 2px 1px rgba(0, 0, 0, 1) !important;
 }
 
 .tc-black{
@@ -840,7 +893,7 @@ h4 {
 
 .btn-atomic-tangerine:hover {
   background: #c27956 !important;
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 
 .ltc-white {
@@ -1017,7 +1070,7 @@ h4 {
     box-shadow: none;
   }
   .navbar-brand img {
-    max-height: 40px;
+    max-height: 30px;
     width: auto;
   }
   .nav-invert .navbar-header {
