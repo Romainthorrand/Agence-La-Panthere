@@ -24,6 +24,10 @@ a:hover {
   color:#c27956 !important
 }
 
+.btn-hover{
+  z-index:100;
+}
+
 .btn-hover:hover{
   background-color:#c27956 !important;
   color:black !important;
@@ -295,7 +299,7 @@ icon-bar.d-bloc a:hover .icon-sm,
 }
 
 #bloc-1-hero h1 {
-  font-size: 50px;
+  font-size: 4rem;
 }
 
 .navbar {
@@ -555,8 +559,8 @@ button {
 
 .adresse_contact_titre {
   display: block;
-  font-size: 1.6rem;
-  padding-top: 20px;
+  font-size: 2.5rem;
+  padding-top:20px;
   text-align: center;
   font-weight: 700;
 }
@@ -566,11 +570,10 @@ button {
   margin-left: auto;
   font-style: italic;
   font-size: 1.3em;
-  color: #f3976c !important;
+  color:#000000 !important;
 }
 
 .commentaire{
-  color:#c27956;
   font-style:italic;
 }
 
@@ -654,6 +657,8 @@ a[data-lightbox]:hover img {
   -webkit-animation-fill-mode: none;
   animation-fill-mode: none;
 }
+
+
 
 #lightbox-modal {
   display: flex;
@@ -745,7 +750,7 @@ label,
 .btn,
 a {
   font-family: "helvetica";
-  color: black;
+  ;
 }
 
 .container {
@@ -799,11 +804,11 @@ h1 {
 
 h2 {
   font-size: 22px;
-  line-height: 1.4em;
+  line-height: 1.6em;
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 1.6rem;
   text-transform: uppercase;
   font-weight: 700;
   color: #333333 !important;
@@ -877,7 +882,6 @@ h4 {
 }
 
 
-
 .ts-black{
   text-shadow:1px 2px 1px rgba(0, 0, 0, 1) !important;
 }
@@ -887,12 +891,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-  background-color: #f3976c !important;
+  background-color: #c27956 !important;
   color: #ffffff !important;
 }
 
 .btn-atomic-tangerine:hover {
-  background: #c27956 !important;
+  background: #f3976c !important;
   color: #000000 !important;
 }
 
