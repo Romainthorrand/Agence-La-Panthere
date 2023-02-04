@@ -163,12 +163,19 @@ icon-bar.d-bloc a:hover .icon-sm,
   color: rgba(255, 255, 255, 1);
 }
 
+.navbar-color{
+  background-color: transparent;
+}
+
 .d-bloc .navbar-toggle .icon-bar {
   background: rgba(255, 255, 255, 1);
 }
 
 .icon-bar {
-  background-color: transparent;
+  text-decoration: none;
+  font-size:1.3rem;
+  font-weight: 800;
+  margin-left:15px;
 }
 
 .d-bloc .btn-wire,
@@ -749,7 +756,9 @@ label,
 .btn,
 a {
   font-family: "helvetica";
-  ;
+  color:black;
+  font-size:1.3rem;
+  
 }
 
 .container {
@@ -1073,7 +1082,7 @@ h4 {
     box-shadow: none;
   }
   .navbar-brand img {
-    max-height: 30px;
+    max-height: 55px;
     width: auto;
   }
   .nav-invert .navbar-header {
@@ -1139,15 +1148,24 @@ h4 {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 430px) {
   .bloc {
     padding-left: 0;
     padding-right: 0;
   }
+
+  .navbar-brand img {
+    max-height: 35px;
+    width: auto;
+}
+
+.icon-bar{
+  font-size:1rem;
+  margin-left: 5px;
 }
 
 @media (max-width: 767px) {
   .bloc-mob-center-text {
     text-align: center;
   }
-}
+}}
