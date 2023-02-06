@@ -25,7 +25,7 @@ a:hover {
 }
 
 .btn-hover{
-  z-index:100;
+  z-index:100 !important;
 }
 
 .btn-hover:hover{
@@ -756,9 +756,11 @@ label,
 .btn,
 a {
   font-family: "helvetica";
-  color:black;
   font-size:1.3rem;
-  
+}
+
+h1,h2,h3,a,label,.btn{
+  color:black;
 }
 
 .container {
@@ -868,6 +870,7 @@ h4 {
   font-weight: 900;
   text-decoration: underline !important;
 }
+
 
 .bgc-white {
   background-color: #ffffff;
