@@ -626,6 +626,7 @@ button {
 
 .scrollToTop span {
   margin-top: 1px;
+  margin-left: -3px;
 }
 
 .showScrollTop {
