@@ -19,7 +19,7 @@ button:hover{
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: none !important;
   cursor: pointer;
   color:#c27956 !important;
 }
@@ -221,7 +221,7 @@ icon-bar.d-bloc a:hover .icon-sm,
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.7) !important;
 }
 
 .l-bloc .icon-round,
@@ -1057,6 +1057,12 @@ h4 {
   .nav > li:hover {
     background: rgba(0, 0, 0, 0.08);
   }
+
+  .lien-nav{
+    text-decoration: transparent !important;
+
+  }
+
   .dropdown .dropdown a .caret {
     float: none;
     margin: 5px 0 0 10px !important;
