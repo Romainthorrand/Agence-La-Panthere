@@ -363,6 +363,7 @@ icon-bar.d-bloc a:hover .icon-sm,
 
 .navbar-toggle .icon-bar {
   width: 26px !important;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .nav-invert .navbar .nav {
