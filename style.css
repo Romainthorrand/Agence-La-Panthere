@@ -22,20 +22,6 @@ a:hover {
   z-index:100 !important;
 }
 
-.btn-hover:hover{
-  background-color:#c27956 !important;
-  color: white !important;
-}
-
-#page-loading-blocs-notifaction {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  z-index: 100000;
-  background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
-}
-
 .bloc {
   width: 100%;
   clear: both;
@@ -751,6 +737,7 @@ label,
 a {
   font-family: "helvetica";
   font-size:1.3rem;
+  color: black;
 }
 
 h1,h2,h3,a,label,.btn{
