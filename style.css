@@ -1,10 +1,9 @@
 .body {
   margin: 0;
   padding: 0;
+  font-size: 1.2rem;
   background: #fff;
   overflow-x: hidden;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 button:hover{
@@ -14,7 +13,6 @@ button:hover{
 
 a:hover {
   text-decoration: none !important;
-  cursor: pointer;
   color:#c27956 !important;
 }
 
@@ -27,9 +25,6 @@ a:hover {
   clear: both;
   background: 50% 50% no-repeat;
   padding: 0 50px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   position: relative;
 }
@@ -61,9 +56,6 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-  -webkit-background-size: auto !important;
-  -moz-background-size: auto !important;
-  -o-background-size: auto !important;
   background-size: auto !important;
 }
 
@@ -284,9 +276,6 @@ icon-bar.d-bloc a:hover .icon-sm,
   padding-left: 0;
 }
 
-#bloc-1-hero h1 {
-  font-size: 4rem;
-}
 
 .navbar {
   margin-bottom: 0;
@@ -369,7 +358,6 @@ icon-bar.d-bloc a:hover .icon-sm,
     top: 50%;
     right: 20px;
     transform: translate(0, -50%);
-    -webkit-transform: translateY(-50%);
   }
   .nav > li .dropdown-menu a,
   .nav > li .dropdown-menu a:hover {
@@ -470,6 +458,9 @@ nav .caret {
 
 .fa-chevron-up{
   color:#f3976c;
+  position: fixed;
+  right:31px;
+  bottom: 33px;
   
 }
 
@@ -555,7 +546,6 @@ button {
   margin-right:auto;
   margin-left: auto;
   font-style: italic;
-  font-size: 1.3em;
   color:#000000 !important;
 }
 
@@ -564,8 +554,9 @@ button {
 }
 
 .auteur {
+  font-size: 1.5rem !important;
   font-style: italic;
-  font-size: 1em;
+  font-weight: 400 !important;
 }
 
 .image_logo{
@@ -604,10 +595,6 @@ button {
   transition: all 0.3s ease-in-out;
 }
 
-.scrollToTop span {
-  margin-top: 1px;
-  margin-left: -3px;
-}
 
 .showScrollTop {
   font-size: 14px;
@@ -636,12 +623,10 @@ a[data-lightbox]:hover::before {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
 }
 
 a[data-lightbox]:hover img {
   opacity: 0.8;
-  -webkit-animation-fill-mode: none;
   animation-fill-mode: none;
 }
 
@@ -736,12 +721,24 @@ label,
 .btn,
 a {
   font-family: "helvetica";
-  font-size:1.3rem;
   color: black;
 }
 
-h1,h2,h3,a,label,.btn{
-  color:black;
+p{
+  font-size: 2rem !important;
+}
+
+a{
+  font-size: 1.7rem!important;
+  font-weight: 800 !important;
+}
+
+h2{
+  font-size: 3.2rem !important;
+}
+
+h3{
+  font-size: 2.8rem !important;
 }
 
 .container {
@@ -767,7 +764,7 @@ h1,h2,h3,a,label,.btn{
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
 
 .tight-width-whitespace {
@@ -776,7 +773,6 @@ p {
 }
 
 h1 {
-  font-size: 20px;
   text-shadow:2px 3px 1px rgba(0, 0, 1, 0.8);
 }
 
@@ -793,10 +789,6 @@ h1 {
   margin: auto auto auto auto !important;
 }
 
-h2 {
-  font-size: 22px;
-  line-height: 1.6em;
-}
 
 h3 {
   font-size: 1.6rem;
@@ -864,6 +856,10 @@ h4 {
 .bgc-atomic-tangerine {
   background-color: #f3976c!important;
   color:black !important;
+}
+.bgc-atomic-tangerine:hover{
+  background-color: #c27956 !important;
+  color:white !important;
 }
 
 .tc-tangerine{
@@ -1005,7 +1001,6 @@ h4 {
   .site-navigation {
     position: inherit;
     transform: none;
-    -webkit-transform: none;
     -ms-transform: none;
   }
   .nav > li {
@@ -1049,7 +1044,6 @@ h4 {
   .navbar-collapse {
     padding: 0;
     overflow-x: hidden;
-    -webkit-box-shadow: none;
     box-shadow: none;
   }
   .navbar-brand img {
