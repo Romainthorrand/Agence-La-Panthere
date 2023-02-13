@@ -457,13 +457,10 @@ nav .caret {
 .fa-chevron-up {
   color: #f3976c;
   position: fixed;
-  right: 31px;
-  bottom: 33px;
+  right: 36px;
+  bottom: 39px;
 }
 
-.fa-chevron-up:hover {
-  color: #f3976c;
-}
 
 button {
   outline: none !important;
@@ -521,8 +518,17 @@ button {
 }
 
 .label_contact {
-  font-size: 20px;
+  font-size: 2rem !important;
   margin-right: 45px;
+}
+
+::placeholder{
+  font-size: 1.4rem !important;
+ 
+}
+
+option{
+  font-size: 1.4rem;
 }
 
 .adresse_contact {
